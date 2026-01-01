@@ -1,0 +1,54 @@
+﻿{
+  "success": true,
+  "count": 4,
+  "data": [
+    {
+      "id": 1,
+      "title": "Web Development Fundamentals",
+      "description": "Learn HTML, CSS, and JavaScript from scratch",
+      "category": "Programming",
+      "level": "Beginner",
+      "free": true,
+      "duration": "8 weeks",
+      "students": 1500,
+      "rating": 4.8,
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&auto=format&fit=crop"
+    },
+    {
+      "id": 2,
+      "title": "Python Programming",
+      "description": "Master Python for automation and web development",
+      "category": "Programming",
+      "level": "Beginner",
+      "free": true,
+      "duration": "10 weeks",
+      "students": 1200,
+      "rating": 4.7,
+      "image": "https://images.unsplash.com/photo-1526379879527-8559ecfcaec1?w=400&auto=format&fit=crop"
+    },
+    {
+      "id": 3,
+      "title": "Database Design",
+      "description": "Learn SQL and MongoDB database management",
+      "category": "Database",
+      "level": "Intermediate",
+      "free": true,
+      "duration": "6 weeks",
+      "students": 800,
+      "rating": 4.6,
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&auto=format&fit=crop"
+    },
+    {
+      "id": 4,
+      "title": "UI/UX Design",
+      "description": "Create beautiful user interfaces and experiences",
+      "category": "Design",
+      "level": "Beginner",
+      "free": true,
+      "duration": "7 weeks",
+      "students": 950,
+      "rating": 4.5,
+      "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400&auto=format&fit=crop"
+    }
+  ]
+}

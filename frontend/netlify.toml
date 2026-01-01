@@ -1,4 +1,4 @@
-[build]
+﻿[build]
   publish = "dist"
   command = "npm run build"
 
@@ -8,7 +8,6 @@
   status = 200
 
 [[headers]]
-  for = "/*"
+  for = "/data/*"
   [headers.values]
-    X-Frame-Options = "DENY"
-    X-Content-Type-Options = "nosniff"
+    Access-Control-Allow-Origin = "*"

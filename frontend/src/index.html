@@ -483,5 +483,45 @@
     
     // Load courses when page loads
     document.addEventListener("DOMContentLoaded", loadCourses);
-</script></body>
+</script>    <!-- Data Loader -->
+    <script src="js/data-loader.js"></script>
+    
+    <script>
+        // Simple counter animation
+        function animateCounters() {
+            const counters = document.querySelectorAll('[data-count]');
+            
+            counters.forEach(counter => {
+                const target = parseInt(counter.getAttribute('data-count'));
+                let current = 0;
+                const increment = target / 50;
+                
+                const update = () => {
+                    current += increment;
+                    if (current < target) {
+                        counter.textContent = Math.floor(current) + '+';
+                        setTimeout(update, 30);
+                    } else {
+                        counter.textContent = target + '+';
+                    }
+                };
+                
+                update();
+            });
+        }
+        
+        // Mobile menu toggle
+        document.getElementById('menuBtn')?.addEventListener('click', function() {
+            const menu = document.getElementById('mobileMenu');
+            menu.classList.toggle('hidden');
+        });
+        
+        // Initialize when page loads
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log('🚀 KnowledgeKraft.pk - Static Version');
+            animateCounters();
+        });
+    </script>
+</body>
 </html>
+

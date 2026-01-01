@@ -1,23 +1,8 @@
-{
-  "author": "KnowledgeKraft Team",
-  "description": "Frontend for KnowledgeKraft.pk",
-  "scripts": {
-    "predeploy": "npm run build",
-    "build": "node scripts/build.js",
-    "dev": "live-server --port=3000 --open=src/ --watch=src",
-    "clean": "Remove-Item -Recurse -Force dist -ErrorAction SilentlyContinue",
-    "deploy": "echo '✅ Ready for Netlify'"
-  },
-  "main": "src/index.html",
-  "keywords": [
-    "education",
-    "pakistan",
-    "frontend"
-  ],
-  "version": "1.0.0",
+﻿{
   "name": "knowledgekraft-frontend",
-  "license": "MIT",
-  "devDependencies": {
-    "live-server": "^1.2.2"
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node build.js",
+    "dev": "echo 'Open src/index.html in browser'"
   }
 }
