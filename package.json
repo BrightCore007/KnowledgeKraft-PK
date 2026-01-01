@@ -1,0 +1,19 @@
+{
+  "name": "knowledgekraft-pk",
+  "version": "1.0.0",
+  "description": "Free Computer Education Platform for Pakistan",
+  "main": "backend/server.js",
+  "scripts": {
+    "dev": "echo 'Development starting...'",
+    "build": "echo 'Building project...'",
+    "test": "echo 'No tests yet'",
+    "deploy": "echo 'Deployment script will be added'"
+  },
+  "keywords": ["education", "pakistan", "free-courses", "programming"],
+  "author": "KnowledgeKraft Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/knowledgekraft-pk"
+  }
+}
