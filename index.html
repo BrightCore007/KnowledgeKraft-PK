@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My GitHub Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="container">
+        <a href="#" class="logo">MySite</a>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <h1>Welcome to My GitHub Website</h1>
+        <p>This site is deployed using GitHub Pages</p>
+        <button id="cta-button" class="btn">Get Started</button>
+        <div class="counter">
+          <p>Visits: <span id="visit-count">0</span></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2>About This Project</h2>
+        <p>
+          This is a simple static website hosted on GitHub Pages. You can
+          customize it with your own content.
+        </p>
+        <div class="features">
+          <div class="feature">
+            <i class="fas fa-rocket"></i>
+            <h3>Easy Deployment</h3>
+            <p>Deploy in minutes with GitHub Pages</p>
+          </div>
+          <div class="feature">
+            <i class="fas fa-free-code-camp"></i>
+            <h3>Free Hosting</h3>
+            <p>GitHub Pages is completely free</p>
+          </div>
+          <div class="feature">
+            <i class="fas fa-mobile-alt"></i>
+            <h3>Responsive</h3>
+            <p>Works on all devices</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea placeholder="Your Message" rows="4" required></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+        <p id="form-message"></p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>
+          © <span id="current-year">2023</span> My GitHub Website. All rights
+          reserved.
+        </p>
+        <p>Hosted on <i class="fab fa-github"></i> GitHub Pages</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
